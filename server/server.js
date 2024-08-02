@@ -59,7 +59,7 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-app.get('/hi',(req,res)=>{
+app.get('/',(req,res)=>{
   res.send("hi")
            });
 
