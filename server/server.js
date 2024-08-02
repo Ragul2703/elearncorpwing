@@ -59,9 +59,9 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-app.get('/',(req,res)=>{
-  res.send("hi")
-           });
+app.get('/h',(req,res)=>{
+  res.send("hello")
+});
 
 
 // Login endpoint
